@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: LaskinTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+LaskinTest.testJaa()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Jakolasku 8/2 väärin ==> expected: <4.0> but was: <5.5>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:908)
+	at LaskinTest.testJaa(LaskinTest.java:46)
+
+LaskinTest.testKerro()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: TESTIÄ EI OLE VIELÄ TOTEUTETTU
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
+	at LaskinTest.testKerro(LaskinTest.java:61)
+
+LaskinTest.testVahenna()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Lukujen 10 ja 2 erotus väärin ==> expected: <8.0> but was: <13.5>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:908)
+	at LaskinTest.testVahenna(LaskinTest.java:38)
+
